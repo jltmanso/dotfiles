@@ -1,0 +1,11 @@
+#!/bin/sh
+
+export TERM="xterm-256color"
+export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -| cd ..)"
+export EDITOR="nvim"
+export TERMINAL="alacritty"
+export BROWSER="brave-browser"
+
+export ALACRITTYDOTDIR=$HOME/.config/alacritty
+export NVIMDOTDIR=$HOME/.config/nvim
+export TMUXDOTDIR=$HOME/.config/tmux

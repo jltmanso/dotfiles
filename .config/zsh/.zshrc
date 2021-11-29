@@ -1,12 +1,5 @@
 #!/bin/sh
 
-export TERM="xterm-256color"
-export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
-export EDITOR="nvim"
-export TERMINAL="alacritty"
-export BROWSER="brave-browser"
-export TMUXDOTDIR=$HOME/.config/tmux
-
 # History definitions
 HISTFILE=$HOME/.config/zsh/.zsh_history     # History filepath
 HISTSIZE=999000					                    # Maximum size for terminal buffer
@@ -43,6 +36,7 @@ bindkey -e 					                        # Use EMACS default format for shortcuts
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 
+source "$ZDOTDIR/zsh-exports"
 source "$ZDOTDIR/zsh-functions"
 source "$ZDOTDIR/zsh-prompt"
 source "$HOME/.config/aliases/aliases"
