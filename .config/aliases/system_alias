@@ -1,0 +1,37 @@
+#!/bin/sh
+
+alias -g ...="../.."
+alias -g ....="../../.."
+alias -g .....="../../../.."
+alias -g ......="../../../../.."
+
+alias f="$FILE" \
+alias e="$EDITOR" \
+alias v="$EDITOR" \
+
+alias \
+    -- -="cd -" \
+    autoremove="sudo apt autoremove" \
+    cal="ncal -w -y" \
+    cp="cp --interactive --verbose" \
+    df="df --human-readable" \
+    du="du --summarize --total --human-readable" \
+    egrep="egrep --color=auto" \
+    free="free --human-readable" \
+    fgrep="fgrep --color=auto" \
+    grep="grep --color=auto" \
+    install="sudo apt install" \
+    ls="ls -l --all --human-readable --color=auto" \
+    mkdir="mkdir --parents --verbose" \
+    mv="mv --interactive --verbose" \
+    netstat="netstat -tulanp" \
+    open="xdg-open" \
+    remove="sudo apt remove" \
+    rm="rm --interactive --verbose" \
+    update="sudo apt update" \
+    upgrade="sudo apt upgrade" \
+    vi="$EDITOR" \
+    vim="$EDITOR" \
+
+alias config="/usr/bin/git --git-dir=${HOME}/.dotfiles --work-tree=${HOME}"
+

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+source $HOME/.config/aliases/system_alias
+source $HOME/.config/aliases/utility_alias
+source $HOME/.config/aliases/fun_alias
