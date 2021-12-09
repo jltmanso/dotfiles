@@ -13,19 +13,22 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'itchyny/lightline.vim'
     " Git wrapper
     Plug 'tpope/vim-fugitive'
-    " Auto jump around
-    Plug 'ludovicchabant/vim-gutentags'
     " Fuzzy finder
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
     " Project tree
-    Plug 'kyazdani42/nvim-web-devicons'
     Plug 'kyazdani42/nvim-tree.lua'
     " Better highlightining
     Plug 'kyazdani42/nvim-treesitter'
 
+    Plug 'prabirshrestha/vim-lsp'
+    Plug 'Shougo/deoplete.nvim'
+    Plug 'lighttiger2505/deoplete-vim-lsp'
+    Plug 'jackguo380/vim-lsp-cxx-highlight'
+
 call plug#end()
 
 source $HOME/.config/nvim/vim-plug/lightline.vim
+source $HOME/.config/nvim/vim-plug/vim-lsp.vim
 " source $HOME/.config/nvim/vim-plug/NERDTree.vim
-source $HOME/.config/nvim/vim-plug/gutentags.vim
+" source $HOME/.config/nvim/vim-plug/gutentags.vim

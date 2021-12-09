@@ -6,6 +6,8 @@ export EDITOR="nvim"
 export TERMINAL="alacritty"
 export BROWSER="brave-browser"
 
-export ALACRITTYDOTDIR=$HOME/.config/alacritty
-export NVIMDOTDIR=$HOME/.config/nvim
-export TMUXDOTDIR=$HOME/.config/tmux
+export ALACRITTYDOTDIR=$HOME/.config/alacritty/
+export ALIASDOTDIR=$HOME/.config/aliases/
+export NVIMDOTDIR=$HOME/.config/nvim/
+export TMUXDOTDIR=$HOME/.config/tmux/
+
