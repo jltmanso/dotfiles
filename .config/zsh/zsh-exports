@@ -8,6 +8,7 @@ export BROWSER="brave-browser"
 
 export ALACRITTYDOTDIR=$HOME/.config/alacritty/
 export ALIASDOTDIR=$HOME/.config/aliases/
+export EXPORTDOTDIR=$HOME/.config/exports/
 export NVIMDOTDIR=$HOME/.config/nvim/
 export TMUXDOTDIR=$HOME/.config/tmux/
 
