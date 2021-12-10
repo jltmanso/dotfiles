@@ -1,0 +1,5 @@
+#!/bin/sh
+
+for exports_file in $EXPORTDOTDIR/*_exports
+  source ${exports_file}
+
