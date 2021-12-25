@@ -20,6 +20,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kyazdani42/nvim-tree.lua'
     " Better highlightining
     Plug 'kyazdani42/nvim-treesitter'
+    " Fancy start screen
+    Plug 'mhinz/vim-startify'
+    " Wiki
+    Plug 'vimwiki/vimwiki'
+
 
     Plug 'prabirshrestha/vim-lsp'
     Plug 'Shougo/deoplete.nvim'
