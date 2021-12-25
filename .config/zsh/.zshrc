@@ -39,8 +39,8 @@ bindkey "^[[1;5D" backward-word
 source "$ZDOTDIR/zsh-exports"
 source "$ZDOTDIR/zsh-functions"
 source "$ZDOTDIR/zsh-prompt"
-source "$HOME/.config/aliases/aliases"
 source "$HOME/.config/exports/exports"
+source "$HOME/.config/aliases/aliases"
 
 #Plugins
 zsh_add_plugin "zsh-users/zsh-autosuggestions"
