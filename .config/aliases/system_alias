@@ -17,12 +17,14 @@ alias \
     df="df --human-readable" \
     du="du --summarize --total --human-readable" \
     dfind="find -type d -name" \
+    dmesg="dmesg --human --color=auto --follow" \
     egrep="egrep --color=auto" \
     ffind="find -type f -name" \
     fgrep="fgrep --color=auto" \
     free="free --human-readable" \
     grep="grep --color=auto" \
     install="sudo apt install" \
+    listpackages="apt list --upgradable" \
     ls="ls -l --all --human-readable --color=auto" \
     mkdir="mkdir --parents --verbose" \
     mv="mv --interactive --verbose" \
@@ -33,6 +35,7 @@ alias \
     tree="tree -C" \
     update="sudo apt update" \
     upgrade="sudo apt upgrade" \
+    uptime="uptime --pretty" \
     vi="$EDITOR" \
     vim="$EDITOR" \
 
