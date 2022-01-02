@@ -3,8 +3,9 @@
 export EDITOR="nvim"
 export TERMINAL="alacritty"
 export BROWSER="brave-browser"
+export VIDEO="mpv"
+export COLORTERM="truecolor"
 
-export ALACRITTYDOTDIR=$HOME/.config/alacritty/
-export NVIMDOTDIR=$HOME/.config/nvim/
-export TMUXDOTDIR=$HOME/.config/tmux/
-
+export ALACRITTYDOTDIR="$XDG_CONFIG_HOME"/alacritty/
+export NVIMDOTDIR="$XDG_CONFIG_HOME"/nvim/
+export TMUXDOTDIR="$XDG_CONFIG_HOME"/tmux/
