@@ -3,3 +3,4 @@
 alias \
     rickroll="curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash" \
     stocks="curl https://terminal-stocks.herokuapp.com/market-summary" \
+    crypto="curl https://rate.sx" \

@@ -14,6 +14,7 @@ alias \
     autoremove="sudo apt autoremove" \
     cal="ncal -w -y" \
     cp="cp --interactive --verbose" \
+    cpuinfo="cat /proc/cpuinfo" \
     df="df --human-readable" \
     du="du --summarize --total --human-readable" \
     dfind="find -type d -name" \
@@ -26,6 +27,10 @@ alias \
     install="sudo apt install" \
     listpackages="apt list --upgradable" \
     ls="ls -l --all --human-readable --color=auto" \
+    lsblk="lsblk --all --paths --output +FSTYPE" \
+    lshw="sudo lshw" \
+    lspci="lspci -tv" \
+    lsusb="lsusb -tv" \
     mkdir="mkdir --parents --verbose" \
     mv="mv --interactive --verbose" \
     netstat="netstat -tulanp" \

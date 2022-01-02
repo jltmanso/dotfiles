@@ -20,6 +20,10 @@ function ipinfo() {
   curl ipinfo.io/$(myip)
 }
 
+function coin_evolution() {
+  curl rate.sx/$1
+}
+
 function ex ()
 {
   if [ -f $1 ] ; then
