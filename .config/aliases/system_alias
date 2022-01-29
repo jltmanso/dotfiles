@@ -13,11 +13,13 @@ alias \
     -- -="cd -" \
     autoremove="sudo apt autoremove" \
     cal="ncal -w -y" \
+    calc="bc" \
     cp="cp --interactive --verbose" \
     cpuinfo="cat /proc/cpuinfo" \
     df="df --human-readable" \
     du="du --summarize --total --human-readable" \
     dfind="find -type d -name" \
+    disto="lsb_release -a" \
     dmesg="dmesg --human --color=auto --follow" \
     egrep="egrep --color=auto" \
     ffind="find -type f -name" \
@@ -38,6 +40,7 @@ alias \
     remove="sudo apt remove" \
     rm="rm --interactive --verbose" \
     tree="tree -C" \
+    kernel="uname -r" \
     update="sudo apt update" \
     upgrade="sudo apt upgrade" \
     uptime="uptime --pretty" \
