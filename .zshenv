@@ -15,12 +15,15 @@ export TEXMFCONFIG="$XDG_CONFIG_HOME"/texlive/texmf-config
 export ZDOTDIR="$XDG_CONFIG_HOME"/zsh
 
 # Redefine cache paths
+export CALCHISTFILE="$XDG_CACHE_HOME"/calc_history
 export ICEAUTHORITY="$XDG_CACHE_HOME"/ICEauthority
 export TEXMFVAR="$XDG_CACHE_HOME"/texlive/texmf-var
 
 # Redefine data paths
+export ATOM_HOME="$XDG_DATA_HOME"/atom
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+export GOPATH="$XDG_DATA_HOME"/go
 export GRADLE_USER_HOME="$XDG_DATA_HOME"/gradle
 export HISTFILE="$XDG_DATA_HOME"/zsh/history
 export TEXMFHOME="$XDG_DATA_HOME"/texmf
