@@ -27,3 +27,4 @@ export GOPATH="$XDG_DATA_HOME"/go
 export GRADLE_USER_HOME="$XDG_DATA_HOME"/gradle
 export HISTFILE="$XDG_DATA_HOME"/zsh/history
 export TEXMFHOME="$XDG_DATA_HOME"/texmf
+. "/home/joao/.local/share/cargo/env"
