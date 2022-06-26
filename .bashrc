@@ -118,3 +118,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
+. "/home/joao/.local/share/cargo/env"
