@@ -14,3 +14,6 @@ if executable('ccls')
       \ })
 endif
 
+let g:vimwiki_list = [
+      \{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'},
+      \{'path': '~/vimwiki/work/', 'syntax': 'markdown', 'ext': '.md'}]
