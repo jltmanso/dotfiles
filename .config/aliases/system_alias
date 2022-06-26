@@ -19,13 +19,14 @@ alias \
     df="df --human-readable" \
     du="du --summarize --total --human-readable" \
     dfind="find -type d -name" \
-    disto="lsb_release -a" \
+    diff="diff --side-by-side --width=120 --suppress-common-lines --suppress-blank-empty --recursive --color=always" \
+    distro="lsb_release -a" \
     dmesg="dmesg --human --color=auto --follow" \
-    egrep="egrep --color=auto" \
+    egrep="egrep --ignore-case --color=auto" \
     ffind="find -type f -name" \
-    fgrep="fgrep --color=auto" \
-    free="free --human-readable" \
-    grep="grep --color=auto" \
+    fgrep="fgrep --ignore-case --color=auto" \
+    free="free --human" \
+    grep="grep --ignore-case --color=auto" \
     install="sudo apt install" \
     listpackages="apt list --upgradable" \
     ls="ls -l --all --human-readable --color=auto" \
