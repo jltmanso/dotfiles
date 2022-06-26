@@ -49,6 +49,8 @@ source "$HOME/.config/aliases/aliases"
 #Plugins
 zsh_add_plugin "zsh-users/zsh-autosuggestions"
 zsh_add_plugin "zdharma/fast-syntax-highlighting"
+zsh_add_plugin "greymd/docker-zsh-completion"
+#zsh_add_plugin "changyuheng/zsh-interactive-cd"   # missing fzf package
 #zsh_add_plugin "Tarrasch/zsh-command-not-found"  # not updated from oh-my-zsh
 #zsh_add_plugin "hcgraf/zsh-sudo"                 # not updated from oh-my-zsh
 #zsh_add_plugin "thetic/extract"                  # not updated from oh-my-zsh
