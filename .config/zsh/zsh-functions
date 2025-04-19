@@ -8,7 +8,7 @@ function zsh_add_file() {
 # Function to automatically download and add plugins
 function zsh_add_plugin() {
     PLUGIN_NAME=$(echo $1 | cut -d "/" -f 2)
-    if [ -d "$ZDOTDIR/plugins/$PLUGIN_NAME" ]; then 
+    if [ -d "$ZDOTDIR/plugins/$PLUGIN_NAME" ]; then
         # For plugins
         zsh_add_file "plugins/$PLUGIN_NAME/$PLUGIN_NAME.plugin.zsh" || \
         zsh_add_file "plugins/$PLUGIN_NAME/$PLUGIN_NAME.zsh"
@@ -17,16 +17,21 @@ function zsh_add_plugin() {
     fi
 }
 
+function _fix_cursor() {
+    echo -ne '\e[5 q'
+}
+
 # Function to redifine man() with colour output
 function man() {
-	env \
-		LESS_TERMCAP_md=$(tput bold; tput setaf 4) \
-		LESS_TERMCAP_me=$(tput sgr0) \
-		LESS_TERMCAP_mb=$(tput blink) \
-		LESS_TERMCAP_us=$(tput setaf 2) \
-		LESS_TERMCAP_ue=$(tput sgr0) \
-		LESS_TERMCAP_so=$(tput smso) \
-		LESS_TERMCAP_se=$(tput rmso) \
-		PAGER="${commands[less]:-$PAGER}" \
-		man "$@"
+    env \
+        LESS_TERMCAP_md=$(tput bold; tput setaf 4) \
+        LESS_TERMCAP_me=$(tput sgr0) \
+        LESS_TERMCAP_mb=$(tput blink) \
+        LESS_TERMCAP_us=$(tput setaf 2) \
+        LESS_TERMCAP_ue=$(tput sgr0) \
+        LESS_TERMCAP_so=$(tput smso) \
+        LESS_TERMCAP_se=$(tput rmso) \
+        PAGER="${commands[less]:-$PAGER}" \
+        man "$@"
 }
+
