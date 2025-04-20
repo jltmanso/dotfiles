@@ -5,6 +5,7 @@ export TERMINAL="alacritty"
 export BROWSER="brave-browser"
 export VIDEO="mpv"
 export COLORTERM="truecolor"
+export MANPAGER="nvim +Man!"
 
 export ALACRITTYDOTDIR="$XDG_CONFIG_HOME"/alacritty/
 export NVIMDOTDIR="$XDG_CONFIG_HOME"/nvim/
