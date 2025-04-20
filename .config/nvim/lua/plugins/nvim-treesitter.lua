@@ -10,6 +10,7 @@ return {
                 'cpp',
                 'diff',
                 'html',
+                'jsonc',
                 'lua',
                 'luadoc',
                 'markdown',
